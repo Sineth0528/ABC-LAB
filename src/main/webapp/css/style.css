@@ -1,0 +1,124 @@
+@import url('font.css');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom, #e6e9f0, #c4cfdc);
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Nunito", sans-serif;
+}
+
+.login-form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 400px;
+    margin-top: -100px;
+    border-color: #0062E6;
+    border-width: 2px;
+    margin-top: -10px;
+}
+
+.reg-form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 500px;
+    margin-top: -100px;
+    border-color: #0062E6;
+    border-width: 2px;
+    margin-top: 100px;
+}
+
+.detail-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 1100px;
+    margin-top: 100px; /* Adjust this value if needed */
+    border-color: #0062E6;
+    border-width: 2px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.reg-form .form-control {
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.login-form h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #0062E6;
+}
+
+.login-form .form-control {
+    border-radius: 25px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.login-form .btn-primary {
+    border-radius: 25px;
+    padding: 12px 20px;
+    font-weight: bold;
+}
+
+.myappointment-form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 500px;
+    border-color: #0062E6;
+    border-width: 2px;
+}
+
+.myappointment-form .form-control {
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.myappointment-form .btn-primary {
+    border-radius: 25px;
+    padding: 12px 20px;
+    font-weight: bold;
+    width: 300px;
+}
+
+.myappointment-form .btn-success {
+    border-radius: 30px;
+    padding: 12px 20px;
+    font-weight: bold;
+    width: 300px;
+}
+
+
+/* Centered section inside the top navigation */
+.navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-item {
+    margin: 10px 5px;
+}
+
+.table-wrapper {
+    max-height: 400px; /* Adjust the height as needed */
+    overflow-y: auto;
+}

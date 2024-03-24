@@ -1,0 +1,149 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <filter>
+  	<filter-name>LoginRedirectFilter</filter-name>
+  	<display-name>LoginRedirectFilter</display-name>
+  	<description></description>
+  	<filter-class>com.kushan.abclab.filter.LoginRedirectFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>LoginRedirectFilter</filter-name>
+  	<url-pattern>/RequestAppointment</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+  	<filter-name>LoginRedirectFilter</filter-name>
+  	<url-pattern>/AppointmentDetailsController</url-pattern>
+  </filter-mapping>
+
+  
+  <servlet>
+  	<servlet-name>UserLoginController</servlet-name>
+  	<display-name>UserLoginController</display-name>
+  	<description></description>
+  	<servlet-class>com.kushan.abclab.controller.UserLoginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserRegisterController</servlet-name>
+  	<display-name>UserRegisterController</display-name>
+  	<description></description>
+  	<servlet-class>com.kushan.abclab.controller.UserRegisterController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserLogin</servlet-name>
+  	<display-name>UserLogin</display-name>
+  	<description></description>
+  	<servlet-class>com.kushan.abclab.controller.UserLoginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DropDownController</servlet-name>
+  	<display-name>DropDownController</display-name>
+  	<description></description>
+  	<servlet-class>com.kushan.abclab.controller.DropDownController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DropDownControllerOne</servlet-name>
+  	<display-name>DropDownControllerOne</display-name>
+  	<description></description>
+  	<servlet-class>com.kushan.abclab.controller.DropDownController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RequestAppointment</servlet-name>
+  	<display-name>RequestAppointment</display-name>
+  	<description></description>
+  	<servlet-class>com.kushan.abclab.controller.RequestAppointment</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AppointmentDetailsController</servlet-name>
+  	<display-name>AppointmentDetailsController</display-name>
+  	<description></description>
+  	<servlet-class>com.kushan.abclab.controller.AppointmentDetailsController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<display-name>Logout</display-name>
+  	<description></description>
+  	<servlet-class>com.kushan.abclab.controller.Logout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogOut</servlet-name>
+  	<display-name>LogOut</display-name>
+  	<description></description>
+  	<servlet-class>com.kushan.abclab.controller.LogOut</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogOutController</servlet-name>
+  	<display-name>LogOutController</display-name>
+  	<description></description>
+  	<servlet-class>com.kushan.abclab.controller.LogOutController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PdfUploadController</servlet-name>
+  	<display-name>PdfUploadController</display-name>
+  	<description></description>
+  	<servlet-class>com.kushan.abclab.controller.PdfUploadController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DownloadPdfController</servlet-name>
+  	<display-name>DownloadPdfController</display-name>
+  	<description></description>
+  	<servlet-class>com.kushan.abclab.controller.DownloadPdfController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserLoginController</servlet-name>
+  	<url-pattern>/UserLoginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserRegisterController</servlet-name>
+  	<url-pattern>/UserRegisterController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserLogin</servlet-name>
+  	<url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DropDownController</servlet-name>
+  	<url-pattern>/DropDownController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DropDownControllerOne</servlet-name>
+  	<url-pattern>/DropDownControllerOne</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RequestAppointment</servlet-name>
+  	<url-pattern>/RequestAppointment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AppointmentDetailsController</servlet-name>
+  	<url-pattern>/AppointmentDetailsController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogOut</servlet-name>
+  	<url-pattern>/LogOut</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogOutController</servlet-name>
+  	<url-pattern>/LogOutController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PdfUploadController</servlet-name>
+  	<url-pattern>/PdfUploadController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DownloadPdfController</servlet-name>
+  	<url-pattern>/DownloadPdfController</url-pattern>
+  </servlet-mapping>
+    
+  
+     
+  
+</web-app>
